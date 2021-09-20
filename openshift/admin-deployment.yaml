@@ -15,7 +15,7 @@ spec:
     spec:
       serviceAccountName: admin
       containers:
-        - image: openjdk/openjdk-11-rhel7
+        - image: test-project/spring-boot-sba-demo
           imagePullPolicy: Never
           name: admin
           env:
