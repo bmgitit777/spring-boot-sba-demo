@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>eu.hermes</groupId>
-    <artifactId>spring-boot-sba-demo</artifactId>
+    <artifactId>admin</artifactId>
     <version>1.0.0</version>
-    <name>spring-boot-sba-demo</name>
+    <name>admin</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: test-account
+  namespace: spring-boot-sba-demo
   name: admin-pod
   labels:
-    app: admin
+    app: spring-boot-sba-demo
     type: spring-boot
 spec:
   replicas: 1
@@ -15,7 +15,7 @@ spec:
     spec:
       serviceAccountName: admin
       containers:
-        - image: joshiste/admin:sio-bcn
+        - image: openjdk/openjdk-11-rhel7
           imagePullPolicy: Never
           name: admin
           env:
