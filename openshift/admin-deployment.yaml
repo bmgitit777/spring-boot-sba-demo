@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: shoppingdemo
+  namespace: test-project
   name: admin-pod
   labels:
-    app: shoppingdemo
+    app: test-project
     type: spring-boot
 spec:
   replicas: 1
