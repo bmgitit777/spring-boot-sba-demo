@@ -4,8 +4,8 @@ spring:
     kubernetes:
       discovery:
         catalogServicesWatchDelay: 5000
-        service-labels:
-          type: spring-boot
+#        service-labels:
+#          type: spring-boot
 
   boot:
     admin:
